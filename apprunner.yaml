@@ -1,8 +1,0 @@
-version: 1.0
-runtime: corretto11
-build:
-  commands:
-    build:
-      - ./mvnw clean package
-run:
-  command: java -Xms256m -jar target/demo-0.0.1-SNAPSHOT.jar

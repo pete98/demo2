@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class hello {
     @RequestMapping("/")
     public String hello() {
-        return "Hello World This is my first Spring Boot Project with AWS CICD Pipeline!";
+        return "Hello World This is my first Spring Boot Project with AWS CICD Pipeline now ssl secured!";
     }
 }
